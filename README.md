@@ -1,21 +1,32 @@
-# {Company} Node Library
+![venice image](./static/hero.png)
+
+# Venice Node Library
 
 [![npm shield](https://img.shields.io/npm/v/@fern-api/{company})](https://www.npmjs.com/package/@fern-api/{company})
 
-The {Company} Node.js library provides access to the {Company} API from JavaScript/TypeScript.
-
-## Documentation
-
-API reference documentation is available [here](docs_url).
+The Venice Node.js library provides access to the Venice API from JavaScript/TypeScript.
 
 ## Usage
 
 [![Try it out](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](TODO)
 
 ```typescript
-import { TODO } from "TODO";
+import { VeniceApiClient } from '@fern-api/venice';
 
-const TODO
+void main();
+
+async function main() {
+  const client = new VeniceApiClient({
+    environment: 'VeniceApiEnvironment',
+  });
+
+  const response = await client.transaction.create({
+       // add code here
+    },
+  });
+  console.log('Received response from Venice!', response);
+}
+
 ```
 
 ## Beta status
