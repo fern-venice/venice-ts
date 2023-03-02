@@ -1,10 +1,10 @@
 ![venice image](./static/hero.png)
 
-# Venice Node Library
+# Venice Typescript Library
 
 [![npm shield](https://img.shields.io/npm/v/@fern-api/venice)](https://www.npmjs.com/package/@fern-api/venice)
 
-The Venice Node.js library provides access to the Venice API from JavaScript/TypeScript.
+The Venice Typescript library provides access to the Venice API from JavaScript/TypeScript.
 
 ## Usage
 
