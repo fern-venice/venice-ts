@@ -24,7 +24,7 @@ async function main() {
   const response = await client.transaction.create({
     prefer: Return.Minimal,
     body: {
-      id: 'id',
+      id: 'adXWDW22',
       date: '2023-03-01',
       description: 'description',
       payee: 'payee',
@@ -39,6 +39,7 @@ async function main() {
   });
   console.log('Received response from Venice!', response);
 }
+
 
 ```
 
