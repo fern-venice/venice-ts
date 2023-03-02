@@ -1,3 +1,5 @@
+![venice image](./static/hero.png)
+
 # Venice Node Library
 
 [![npm shield](https://img.shields.io/npm/v/@fern-api/venice)](https://www.npmjs.com/package/@fern-api/venice)
