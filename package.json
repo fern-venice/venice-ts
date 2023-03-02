@@ -1,8 +1,8 @@
 {
     "name": "@fern-api/venice",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "private": false,
-    "repository": "https://github.com/fern-venice/venice-node",
+    "repository": "https://github.com/fern-venice/venice-ts",
     "files": [
         "Client.d.ts",
         "Client.js",
