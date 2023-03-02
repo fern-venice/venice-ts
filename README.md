@@ -2,16 +2,42 @@
 
 [![npm shield](https://img.shields.io/npm/v/@fern-api/venice)](https://www.npmjs.com/package/@fern-api/venice)
 
-The Venice Node.js library provides access to the {Company} API from JavaScript/TypeScript.
+The Venice Node.js library provides access to the Venice API from JavaScript/TypeScript.
 
 ## Usage
 
 [![Try it out](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/typescript-example-using-sdk-built-with-fern-uyldqq?file=package.json,app.ts,node_modules%2F%40fern-api%2Fvenice%2Fapi%2Fresources%2Finstitution%2Fclient%2FClient.d.ts,node_modules%2F%40fern-api%2Fvenice%2Fapi%2Fresources%2Ftransaction%2Fclient%2Frequests%2FCreateTransaction.d.ts,node_modules%2F%40fern-api%2Fvenice%2Fapi%2Fresources%2Fcommons%2Ftypes%2FTransaction.d.ts)
 
 ```typescript
-import { TODO } from "TODO";
+import { VeniceClient } from '@fern-api/venice';
+import { Return } from '@fern-api/venice/api';
 
-const TODO
+void main();
+
+async function main() {
+  const client = new VeniceClient({
+    environment: 'VeniceApiEnvironment',
+  });
+
+  const response = await client.transaction.create({
+    prefer: Return.Minimal,
+    body: {
+      id: 'id',
+      date: '2023-03-01',
+      description: 'description',
+      payee: 'payee',
+      amountQuantity: 100,
+      amountUnit: 'USD',
+      accountId: 'accountId',
+      externalCategory: 'external category',
+      notes: 'notes',
+      updatedAt: '2023-03-01',
+      createdAt: '2023-03-01',
+    },
+  });
+  console.log('Received response from Venice!', response);
+}
+
 ```
 
 ## Beta status
