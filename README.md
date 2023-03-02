@@ -1,16 +1,12 @@
-# {Company} Node Library
+# Venice Node Library
 
-[![npm shield](https://img.shields.io/npm/v/@fern-api/{company})](https://www.npmjs.com/package/@fern-api/{company})
+[![npm shield](https://img.shields.io/npm/v/@fern-api/venice)](https://www.npmjs.com/package/@fern-api/venice)
 
-The {Company} Node.js library provides access to the {Company} API from JavaScript/TypeScript.
-
-## Documentation
-
-API reference documentation is available [here](docs_url).
+The Venice Node.js library provides access to the {Company} API from JavaScript/TypeScript.
 
 ## Usage
 
-[![Try it out](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](TODO)
+[![Try it out](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/typescript-example-using-sdk-built-with-fern-uyldqq?file=package.json,app.ts,node_modules%2F%40fern-api%2Fvenice%2Fapi%2Fresources%2Finstitution%2Fclient%2FClient.d.ts,node_modules%2F%40fern-api%2Fvenice%2Fapi%2Fresources%2Ftransaction%2Fclient%2Frequests%2FCreateTransaction.d.ts,node_modules%2F%40fern-api%2Fvenice%2Fapi%2Fresources%2Fcommons%2Ftypes%2FTransaction.d.ts)
 
 ```typescript
 import { TODO } from "TODO";
